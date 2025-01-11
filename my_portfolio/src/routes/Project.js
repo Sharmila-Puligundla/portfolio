@@ -1,9 +1,16 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+import Mainpro from '../components/Mainpro'
+import Work from '../components/Work'
 
 const Project = () => {
   return (
     <div>
-      <h1>Project</h1>
+      <Navbar/>
+      <Mainpro heading="PROJECTS" text="Some of my most recent works"/>
+      <Work/>
+      <Footer/>
     </div>
   )
 }
